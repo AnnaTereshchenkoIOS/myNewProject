@@ -16,18 +16,39 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello, baby!! " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.90000000000000002" translatesAutoresizingMaskIntoConstraints="NO" id="alR-dr-PYH">
+                                <rect key="frame" x="103.66666666666669" y="345" width="207" height="46"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="46" id="1Ku-1c-goy"/>
+                                    <constraint firstAttribute="height" constant="46" id="3PS-0E-bc7"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="207" id="5gH-js-l5Q"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="46" id="E4S-G6-E1V"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="207" id="EVJ-BO-uDK"/>
+                                    <constraint firstAttribute="width" constant="207" id="Gkw-RY-gQu"/>
+                                    <constraint firstAttribute="width" secondItem="alR-dr-PYH" secondAttribute="height" multiplier="9:2" id="OWn-8e-v6w"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="39"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemGray5Color"/>
+                        <constraints>
+                            <constraint firstItem="alR-dr-PYH" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="DYt-Pv-wqf"/>
+                            <constraint firstItem="alR-dr-PYH" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="S44-md-vu3"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="50.467289719626166" y="373.86609071274302"/>
         </scene>
     </scenes>
     <resources>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
