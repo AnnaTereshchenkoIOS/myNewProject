@@ -17,8 +17,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello, baby!! " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.90000000000000002" translatesAutoresizingMaskIntoConstraints="NO" id="alR-dr-PYH">
-                                <rect key="frame" x="103.66666666666669" y="345" width="207" height="46"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Hello, baby!! " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.90000000000000002" translatesAutoresizingMaskIntoConstraints="NO" id="alR-dr-PYH">
+                                <rect key="frame" x="112" y="93" width="191" height="46"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="lessThanOrEqual" constant="46" id="1Ku-1c-goy"/>
                                     <constraint firstAttribute="height" constant="46" id="3PS-0E-bc7"/>
@@ -36,8 +36,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemGray5Color"/>
                         <constraints>
-                            <constraint firstItem="alR-dr-PYH" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="DYt-Pv-wqf"/>
-                            <constraint firstItem="alR-dr-PYH" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="S44-md-vu3"/>
+                            <constraint firstItem="alR-dr-PYH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="43" id="43k-ke-YUm"/>
+                            <constraint firstItem="alR-dr-PYH" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="5QJ-ZK-vOv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="alR-dr-PYH" secondAttribute="trailing" constant="43" id="pre-hR-E5n"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="alR-dr-PYH" secondAttribute="trailing" constant="180" id="tku-o2-xeb"/>
                         </constraints>
                     </view>
                 </viewController>
